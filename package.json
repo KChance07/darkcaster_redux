@@ -1,5 +1,14 @@
 {
   "dependencies": {
     "express": "^4.14.0"
-  }
+  },
+  "name": "darkcaster_redux",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/KChance07/darkcaster_redux.git",
+    "type": "git"
+  },
+  "author": "Kyle Chance <kylechance@gmail.com>",
+  "license": "MIT"
 }
