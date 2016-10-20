@@ -1,4 +1,4 @@
-var mySecretPassphrase = process.env.PASS || require('..config.js').secretPassphrase;
+var mySecretPassphrase = process.env.PASS || require('../config.js').secretPassphrase;
 
 function authorize(request, response, next){
   var secretPassphrase = request.headers.secret;

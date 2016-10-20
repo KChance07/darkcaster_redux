@@ -18,7 +18,7 @@ router.get('/forecast/:latitude,:longitude', function(request, response){
        });
 });
 
-modules.export = router;
+module.exports = router;
 
 function buildForecastURL(latitude, longitude){
   var url = 'https://api.darksky.net/forecast/'+ apiKey +'/'+ latitude +','+ longitude;
